@@ -26,9 +26,6 @@ scikit-optimize >= 0.10.2
 
 # Running Locally
 1. Clone the repository
-git clone https://github.com/gurezende/ML-Tuning-Assistant.git
-cd your-repo-name
-
 2. Install the required packages
 pip install <package_name>
 
@@ -42,6 +39,7 @@ Run the Streamlit application from the terminal:
 3.4. Follow the on-screen prompts to specify your model type and receive tuning suggestions.
 
 # Demonstration
+
 
 
 
