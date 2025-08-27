@@ -24,4 +24,27 @@ seaborn >= 0.13.2
 streamlit >= 1.48.1
 scikit-optimize >= 0.10.2
 
+# Running Locally
+1. Clone the repository
+git clone https://github.com/gurezende/ML-Tuning-Assistant.git
+cd your-repo-name
+
+2. Install the required packages
+pip install <package_name>
+
+3. Run the Agent
+Run the Streamlit application from the terminal:
+
+# streamlit run main.py
+3.1. Open your browser and navigate to the local URL provided by Streamlit.
+3.2. Enter your Google API key in the sidebar.
+3.3. Add your model's metrics in the text area and hit Enter on your keyboard. The more details you provide (e.g., accuracy, precision, recall, F1-score for classification; RMSE, MAE, R² for regression), the better the suggestions will be.
+3.4. Follow the on-screen prompts to specify your model type and receive tuning suggestions.
+
+# Demonstration
+
+
+
+
+
 
